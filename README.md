@@ -123,7 +123,7 @@ Voici le nouvel objectif à atteindre :
 
 #### Étape 4 : Rendu
 
-Rendez-vous travail en créant une pull request de votre branche de travail vers la branche `master` de ce repository.
+Rendez votre travail en créant une pull request de votre branche de travail vers la branche `master` de ce repository.
 
 ## Partie 2 : Grid
 
