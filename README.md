@@ -15,8 +15,8 @@ Le but de l'exercice est de reproduire une célèbre carte à jouer en utilisant
 
 #### Étape 0 : Configuration VSCode
 
-- Cloner ce repository : le dossier `tp/pokemon` sera la racine de votre TP.
-- Créer une branche de travail à votre nom : `git checkout -b bcalou`
+- Créer un fork de ce repository
+- Cloner le fork : le dossier `tp/pokemon` sera la racine de votre TP.
 - Installer le plugin _Prettier_
   - Dans les options :
     - Cocher "Format on save"
@@ -123,7 +123,7 @@ Voici le nouvel objectif à atteindre :
 
 #### Étape 4 : Rendu
 
-Rendez votre travail en créant une pull request de votre branche de travail vers la branche `master` de ce repository.
+Rendez votre travail en créant une pull request de votre repository de travail vers ce repository.
 
 ## Partie 2 : Grid
 
