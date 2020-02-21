@@ -1,0 +1,9 @@
+.image {
+  border: 2px solid;
+  border-image-source: $gradiant;
+  border-image-slice: 1;
+
+  @include landscape {
+    flex-basis: 50%;
+  }
+}

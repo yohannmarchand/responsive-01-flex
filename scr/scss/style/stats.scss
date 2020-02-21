@@ -1,0 +1,17 @@
+.stats {
+  border-top: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0px;
+}
+
+.stats__stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stats__name {
+  font-weight: bold;
+  font-size: small;
+}

@@ -1,0 +1,9 @@
+.contentbox {
+  @include landscape {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+    flex-basis: 50%;
+  }
+}

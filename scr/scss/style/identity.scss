@@ -1,0 +1,28 @@
+// ------IDENTITY----------
+
+.identity {
+  display: flex;
+
+  div:last-child {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  @include landscape {
+    order: 1;
+  }
+}
+
+.identity__name {
+  font-weight: bold;
+  font-size: larger;
+}
+.identity__life {
+  color: #e84600;
+  margin-right: 5px;
+}
+
+.identity__evolution {
+  font-size: x-small;
+}

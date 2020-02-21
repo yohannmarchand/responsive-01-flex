@@ -1,0 +1,26 @@
+$gradiant: linear-gradient(
+  60deg,
+  rgba(254, 236, 0, 1) 0%,
+  rgba(121, 117, 29, 1) 100%
+);
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  border: 15px solid;
+  border-image-source: $gradiant;
+  border-image-slice: 1;
+  background-color: #9acd32;
+  padding: 5px;
+  min-height: 100vh;
+
+  @include landscape {
+    display: flex;
+  }
+}

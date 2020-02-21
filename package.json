@@ -1,0 +1,25 @@
+{
+  "name": "responsive-01-flex",
+  "version": "1.0.0",
+  "description": "Carte Pokemon de Bulbi",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel scr/index.html",
+    "build": "parcel build scr/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yohannmarchand/responsive-01-flex.git"
+  },
+  "author": "Yoyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yohannmarchand/responsive-01-flex/issues"
+  },
+  "homepage": "https://github.com/yohannmarchand/responsive-01-flex#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "sass": "^1.25.0"
+  }
+}

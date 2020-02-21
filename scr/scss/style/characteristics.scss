@@ -1,0 +1,10 @@
+.characteristics {
+  text-align: center;
+  background: $gradiant;
+  font-size: small;
+  margin: 0px 15px;
+
+  @include landscape {
+    order: 2;
+  }
+}

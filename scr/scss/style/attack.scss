@@ -1,0 +1,27 @@
+.attack {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 5px;
+
+  div:first-child {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+
+    img {
+      margin: 0px 2px;
+    }
+  }
+}
+
+.attack__name {
+  font-weight: bold;
+}
+.attack__summary {
+  padding: 5px;
+}
+.attack__damage {
+  font-weight: bold;
+  font-size: larger;
+}

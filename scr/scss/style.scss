@@ -1,0 +1,15 @@
+@mixin landscape {
+  @media (min-aspect-ratio: 1/1) {
+    @content;
+  }
+}
+
+@import "reset.scss";
+@import "layout.scss";
+@import "style/attack.scss";
+@import "style/characteristics.scss";
+@import "style/details.scss";
+@import "style/identity.scss";
+@import "style/stats.scss";
+@import "style/image.scss";
+@import "style/contentbox.scss";
